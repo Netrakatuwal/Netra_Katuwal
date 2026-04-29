@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- ══ SEO META TAGS ══ -->
+<title>Netra Bahadur Katuwal | Assistant Professor, Geomatics Engineering, IOE Pashchimanchal Campus</title>
+<meta name="description" content="Netra Bahadur Katuwal is an Assistant Professor and Deputy Head of the Department of Geomatics Engineering at IOE Pashchimanchal Campus, Tribhuvan University, Nepal. Specialist in Remote Sensing, GIS, InSAR, UAV Photogrammetry, and Machine Learning."/>
+<meta name="keywords" content="Netra Bahadur Katuwal, Geomatics Engineering, IOE Pashchimanchal Campus, Remote Sensing, GIS, InSAR, Photogrammetry, Tribhuvan University, Nepal, SBAS InSAR, UAV, GNSS, Machine Learning, Land Subsidence"/>
+<meta name="author" content="Netra Bahadur Katuwal"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://nbkatuwal.com.np/"/>
+
+<!-- ══ OPEN GRAPH (for sharing on social media) ══ -->
+<meta property="og:type" content="profile"/>
+<meta property="og:title" content="Netra Bahadur Katuwal | Geomatics Engineering, IOE Nepal"/>
+<meta property="og:description" content="Assistant Professor & Deputy Head, Department of Geomatics Engineering, IOE Pashchimanchal Campus, TU Nepal. Research in InSAR, Remote Sensing, GIS, UAV, and Machine Learning."/>
+<meta property="og:url" content="https://nbkatuwal.com.np/"/>
+<meta property="og:locale" content="en_NP"/>
+
+<!-- ══ SCHEMA.ORG STRUCTURED DATA (helps Google show rich results) ══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Netra Bahadur Katuwal",
+  "jobTitle": "Assistant Professor & Deputy Head of Department",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "IOE Pashchimanchal Campus, Tribhuvan University",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pokhara",
+      "addressRegion": "Gandaki Province",
+      "addressCountry": "NP"
+    }
+  },
+  "email": "netra@ioepas.edu.np",
+  "telephone": "+977-9866292619",
+  "url": "https://nbkatuwal.com.np/",
+  "sameAs": [
+    "https://www.linkedin.com/in/netra-bahadur-katuwal-49664b198",
+    "https://scholar.google.com/citations?hl=en&user=dvrN0DoAAAAJ"
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Wuhan University",
+      "address": {"@type": "PostalAddress", "addressLocality": "Hubei", "addressCountry": "CN"}
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Tribhuvan University, IOE Pashchimanchal Campus",
+      "address": {"@type": "PostalAddress", "addressLocality": "Pokhara", "addressCountry": "NP"}
+    }
+  ],
+  "knowsAbout": ["Remote Sensing", "GIS", "InSAR", "Photogrammetry", "UAV", "Machine Learning", "GNSS", "Geospatial Analysis"]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+
+<style>
+:root {
+  --navy:   #0d1b3e;
+  --navy2:  #132050;
+  --gold:   #c9973a;
+  --gold2:  #e8b84b;
+  --cream:  #f7f3eb;
+  --warm:   #ede8dc;
+  --text:   #1a1a2e;
+  --muted:  #5a5f7a;
+  --white:  #ffffff;
+  --rule:   rgba(201,151,58,0.35);
+  --shadow: 0 4px 32px rgba(13,27,62,0.10);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.75;
+  font-size: 16px;
+}
+
+/* ── NAV ── */
+nav {
+  position: sticky; top: 0; z-index: 200;
+  background: var(--navy);
+  border-bottom: 2px solid var(--gold);
+  padding: 0 1.5rem;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 56px;
+}
+.nav-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem; color: var(--gold2);
+  letter-spacing: 0.02em; white-space: nowrap;
+}
+.nav-links { display: flex; gap: 0; list-style: none; }
+.nav-links a {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 0.4rem 0.65rem; border-radius: 3px;
+  transition: color 0.2s, background 0.2s;
+}
+.nav-links a:hover { color: var(--gold2); background: rgba(201,151,58,0.12); }
+
+/* ── HERO ── */
+#hero {
+  background: linear-gradient(135deg, var(--navy) 0%, #162660 55%, #1a3070 100%);
+  color: var(--white);
+  padding: 5rem 2rem 4rem;
+  position: relative; overflow: hidden;
+}
+#hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 55% 60% at 85% 40%, rgba(201,151,58,0.1) 0%, transparent 65%),
+    repeating-linear-gradient(45deg, transparent, transparent 38px, rgba(255,255,255,0.018) 38px, rgba(255,255,255,0.018) 39px);
+  pointer-events: none;
+}
+#hero::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, transparent, var(--gold), var(--gold2), var(--gold), transparent);
+}
+.hero-inner {
+  max-width: 1080px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 200px;
+  gap: 2.5rem; align-items: center; position: relative; z-index: 1;
+}
+.hero-tag {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--gold2);
+  background: rgba(201,151,58,0.15); border: 1px solid rgba(201,151,58,0.4);
+  padding: 0.22rem 0.8rem; border-radius: 2px; margin-bottom: 1rem;
+}
+.hero-name {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4.5vw, 3.3rem); font-weight: 700;
+  line-height: 1.12; margin-bottom: 0.5rem;
+}
+.hero-role {
+  font-size: 1rem; font-weight: 300;
+  color: rgba(255,255,255,0.85); line-height: 1.55; margin-bottom: 0.3rem;
+}
+.hero-role strong { color: var(--gold2); font-weight: 600; }
+.hero-dept {
+  font-size: 0.88rem; color: rgba(255,255,255,0.6); margin-bottom: 1.5rem;
+}
+.hero-badges {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;
+}
+.badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem; letter-spacing: 0.06em; text-transform: uppercase;
+  background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.75);
+  padding: 0.25rem 0.7rem; border-radius: 20px;
+}
+.hero-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.hero-links a {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem; letter-spacing: 0.07em; text-transform: uppercase;
+  color: rgba(255,255,255,0.78); text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.22);
+  padding: 0.38rem 0.85rem; border-radius: 3px; transition: all 0.2s;
+}
+.hero-links a:hover { background: rgba(201,151,58,0.2); border-color: var(--gold); color: var(--gold2); }
+.hero-photo {
+  width: 185px; height: 220px;
+  border: 3px solid var(--gold); border-radius: 4px;
+  background: linear-gradient(160deg, #1e3070, #0d1b3e);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5), 5px 5px 0 var(--gold);
+  position: relative; overflow: hidden; flex-shrink: 0;
+}
+.hero-photo::before {
+  content: '';position: absolute; inset: 0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 7px, rgba(201,151,58,0.05) 7px, rgba(201,151,58,0.05) 8px);
+}
+.photo-emoji { font-size: 5rem; position: relative; z-index: 1; }
+.photo-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--gold); text-align: center; position: relative; z-index: 1; margin-top: 0.4rem;
+}
+
+/* ── SHARED SECTION STYLES ── */
+section { padding: 4rem 2rem; }
+.bg-cream { background: var(--cream); }
+.bg-warm  { background: var(--warm); }
+.bg-white { background: var(--white); }
+.bg-navy  { background: var(--navy); color: var(--white); }
+.section-inner { max-width: 1080px; margin: 0 auto; }
+.section-header {
+  display: flex; align-items: center; gap: 1.2rem; margin-bottom: 2.5rem;
+}
+.section-num {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase;
+  border: 1px solid var(--rule); padding: 0.2rem 0.55rem; border-radius: 2px; flex-shrink: 0;
+}
+.section-num-light {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  color: var(--gold2); letter-spacing: 0.12em; text-transform: uppercase;
+  border: 1px solid rgba(201,151,58,0.45); padding: 0.2rem 0.55rem; border-radius: 2px; flex-shrink: 0;
+}
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.4rem, 2.5vw, 1.95rem); color: var(--navy); font-weight: 700;
+}
+.section-title-light { color: var(--gold2); }
+.section-line { flex: 1; height: 1px; background: linear-gradient(90deg, var(--gold), transparent); }
+
+/* ── ABOUT GRID ── */
+.about-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.info-card {
+  background: var(--white); border: 1px solid rgba(201,151,58,0.2);
+  border-top: 3px solid var(--gold); border-radius: 4px;
+  padding: 1.6rem; box-shadow: var(--shadow);
+}
+.info-card h3 {
+  font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--navy);
+  margin-bottom: 0.9rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--rule);
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.info-card ul { list-style: none; padding: 0; }
+.info-card ul li {
+  font-size: 0.9rem; color: var(--muted); padding: 0.28rem 0;
+  padding-left: 1.2rem; position: relative; line-height: 1.55;
+}
+.info-card ul li::before {
+  content: '▸'; color: var(--gold); position: absolute; left: 0; font-size: 0.72rem; top: 0.45rem;
+}
+.info-card p { font-size: 0.9rem; color: var(--muted); line-height: 1.65; }
+
+/* ── TIMELINE (Experience) ── */
+.timeline { position: relative; padding-left: 2rem; }
+.timeline::before {
+  content: ''; position: absolute; left: 0.55rem; top: 0.5rem; bottom: 0;
+  width: 2px; background: linear-gradient(180deg, var(--gold), transparent);
+}
+.tl-item { position: relative; margin-bottom: 2rem; }
+.tl-dot {
+  position: absolute; left: -1.6rem; top: 0.45rem;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--gold); border: 2px solid var(--white);
+  box-shadow: 0 0 0 2px var(--gold);
+}
+.tl-card {
+  background: var(--white); border: 1px solid rgba(201,151,58,0.2);
+  border-left: 4px solid var(--gold); border-radius: 0 4px 4px 0;
+  padding: 1.2rem 1.4rem; box-shadow: var(--shadow);
+  transition: transform 0.2s;
+}
+.tl-card:hover { transform: translateX(4px); }
+.tl-role {
+  font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--navy);
+  font-weight: 700; margin-bottom: 0.2rem;
+}
+.tl-org {
+  font-size: 0.88rem; color: var(--gold); font-weight: 600; margin-bottom: 0.15rem;
+}
+.tl-date {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+  color: var(--muted); letter-spacing: 0.05em; margin-bottom: 0.7rem;
+}
+.tl-card ul { list-style: none; padding: 0; }
+.tl-card ul li {
+  font-size: 0.88rem; color: var(--muted); padding: 0.2rem 0 0.2rem 1.1rem;
+  position: relative; line-height: 1.55;
+}
+.tl-card ul li::before { content: '·'; color: var(--gold); position: absolute; left: 0; font-size: 1.1rem; top: 0.05rem; }
+
+/* ── PUBLICATIONS ── */
+.pub-list { display: flex; flex-direction: column; gap: 0.9rem; }
+.pub-item {
+  background: var(--white); border-left: 4px solid var(--gold);
+  border-radius: 0 4px 4px 0; padding: 1.2rem 1.5rem; box-shadow: var(--shadow);
+  display: grid; grid-template-columns: 44px 1fr; gap: 1rem; align-items: start;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.pub-item:hover { transform: translateX(5px); box-shadow: 0 6px 36px rgba(13,27,62,0.15); }
+.pub-num {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; font-weight: 500;
+  color: var(--gold); background: rgba(201,151,58,0.1); border: 1px solid var(--rule);
+  border-radius: 3px; padding: 0.2rem 0.5rem; text-align: center; margin-top: 0.1rem;
+}
+.pub-title {
+  font-family: 'Playfair Display', serif; font-size: 0.98rem;
+  font-weight: 700; color: var(--navy); margin-bottom: 0.35rem; line-height: 1.4;
+}
+.pub-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.4rem; }
+.pub-badge {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  color: var(--white); background: var(--navy);
+  padding: 0.12rem 0.55rem; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.06em;
+}
+.pub-badge.gold { background: var(--gold); color: var(--navy); }
+
+/* ── RESEARCH / PROJECT CARDS ── */
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.3rem; }
+.r-card {
+  background: var(--white); border: 1px solid rgba(201,151,58,0.2);
+  border-radius: 4px; padding: 1.5rem; box-shadow: var(--shadow);
+  position: relative; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s;
+}
+.r-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--gold2));
+}
+.r-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(13,27,62,0.15); }
+.r-icon { font-size: 1.8rem; margin-bottom: 0.7rem; }
+.r-card h3 { font-family: 'Playfair Display', serif; font-size: 0.95rem; color: var(--navy); margin-bottom: 0.5rem; line-height: 1.4; }
+.r-card p { font-size: 0.86rem; color: var(--muted); line-height: 1.65; }
+.r-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.9rem; }
+.r-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.62rem; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--gold); border: 1px solid var(--rule);
+  padding: 0.12rem 0.48rem; border-radius: 2px;
+}
+.r-tag.funded { color: var(--white); background: var(--navy); border-color: var(--navy); }
+
+/* ── COURSES ── */
+.courses-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
+.c-card {
+  background: var(--white); border: 1px solid rgba(201,151,58,0.18);
+  border-radius: 4px; padding: 1.2rem 1.4rem; box-shadow: var(--shadow);
+  display: flex; gap: 1rem; align-items: flex-start; transition: transform 0.2s;
+}
+.c-card:hover { transform: translateY(-2px); }
+.c-code {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  color: var(--white); background: var(--navy);
+  padding: 0.28rem 0.55rem; border-radius: 3px; flex-shrink: 0; margin-top: 0.1rem;
+  line-height: 1.3; text-align: center;
+}
+.c-info h4 { font-family: 'Playfair Display', serif; font-size: 0.92rem; color: var(--navy); margin-bottom: 0.25rem; }
+.c-level {
+  display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--gold); border: 1px solid var(--rule); padding: 0.08rem 0.4rem; border-radius: 2px;
+}
+
+/* ── SKILLS ── */
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.2rem; }
+.skill-group { background: var(--white); border-radius: 4px; padding: 1.4rem; box-shadow: var(--shadow); border-top: 3px solid var(--gold); }
+.skill-group h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--navy); margin-bottom: 0.8rem; }
+.skill-pill {
+  display: inline-block; font-size: 0.8rem; color: var(--muted);
+  background: var(--warm); border-radius: 3px;
+  padding: 0.2rem 0.6rem; margin: 0.2rem 0.2rem 0.2rem 0;
+}
+
+/* ── WORKSHOPS ── */
+.workshop-list { display: flex; flex-direction: column; gap: 0.6rem; }
+.w-item {
+  background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.1);
+  border-left: 3px solid var(--gold); border-radius: 0 4px 4px 0;
+  padding: 0.8rem 1.2rem;
+}
+.w-item p { font-size: 0.88rem; color: rgba(255,255,255,0.78); line-height: 1.5; }
+.w-item span {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  color: var(--gold2); letter-spacing: 0.06em;
+}
+
+/* ── CONTACT ── */
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: start; }
+.c-item {
+  display: flex; gap: 1rem; align-items: flex-start;
+  padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.c-item:first-child { border-top: 1px solid rgba(255,255,255,0.08); }
+.c-ico { font-size: 1.2rem; flex-shrink: 0; margin-top: 0.1rem; }
+.c-detail h4 {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 0.3rem;
+}
+.c-detail p, .c-detail a { font-size: 0.9rem; color: rgba(255,255,255,0.8); text-decoration: none; line-height: 1.55; }
+.c-detail a:hover { color: var(--gold2); }
+.profile-links { display: flex; flex-direction: column; gap: 0.65rem; }
+.profile-links h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--gold2); margin-bottom: 1rem; }
+.p-link {
+  display: flex; align-items: center; gap: 0.8rem;
+  padding: 0.75rem 1.1rem;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px; text-decoration: none; color: rgba(255,255,255,0.78); font-size: 0.88rem;
+  transition: all 0.2s;
+}
+.p-link:hover { background: rgba(201,151,58,0.15); border-color: rgba(201,151,58,0.4); color: var(--gold2); }
+
+/* ── FOOTER ── */
+footer {
+  background: #070e21;
+  color: rgba(255,255,255,0.35);
+  text-align: center; padding: 1.6rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; letter-spacing: 0.08em;
+}
+footer span { color: var(--gold); }
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.hero-inner > div:first-child > * {
+  animation: fadeUp 0.65s ease both;
+}
+.hero-inner > div:first-child > *:nth-child(2) { animation-delay: 0.08s; }
+.hero-inner > div:first-child > *:nth-child(3) { animation-delay: 0.16s; }
+.hero-inner > div:first-child > *:nth-child(4) { animation-delay: 0.24s; }
+.hero-inner > div:first-child > *:nth-child(5) { animation-delay: 0.32s; }
+.hero-inner > div:first-child > *:nth-child(6) { animation-delay: 0.40s; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 780px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-photo { display: none; }
+  .about-2col { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+  section { padding: 3rem 1.2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-brand">Netra Bahadur Katuwal</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#courses">Teaching</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-tag">🗺 Academic Portfolio · IOE Pashchimanchal Campus</div>
+      <h1 class="hero-name">Netra Bahadur<br>Katuwal</h1>
+      <p class="hero-role">
+        <strong>Assistant Professor & Master coordinator</strong>
+      </p>
+      <p class="hero-dept">
+        Department of Geomatics Engineering, IOE Pashchimanchal Campus<br>
+        Tribhuvan University · Pokhara, Kaski, Nepal
+      </p>
+      <div class="hero-badges">
+        <span class="badge">🛰 InSAR & Remote Sensing</span>
+        <span class="badge">🗺 GIS & Geospatial ML</span>
+        <span class="badge">📡 UAV Photogrammetry</span>
+        <span class="badge">🌐 GNSS & Satellite Positioning</span>
+      </div>
+      <div class="hero-links">
+        <a href="mailto:netra@ioepas.edu.np">✉ netra@ioepas.edu.np</a>
+        <a href="https://scholar.google.com/citations?hl=en&user=dvrN0DoAAAAJ" target="_blank">🎓 Google Scholar</a>
+        <a href="https://www.linkedin.com/in/netra-bahadur-katuwal-49664b198" target="_blank">💼 LinkedIn</a>
+        <a href="tel:+9779866292619">📞 +977-9866292619</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-emoji">🛰️</div>
+      <div class="photo-label">Geomatics<br>Engineering</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="bg-cream">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-2col">
+
+      <div class="info-card">
+        <h3>🎓 Education</h3>
+        <ul>
+          <li><strong>M.Sc. Photogrammetry & Remote Sensing</strong> — Wuhan University, Hubei, China (2019–2021) · GPA 3.46/4.0<br>
+          <em style="font-size:0.82rem;color:#888">Thesis: Detection of Land Subsidence using InSAR — A Case Study of Pokhara, Nepal</em></li>
+          <li style="margin-top:0.6rem"><strong>B.E. Geomatics Engineering</strong> — IOE Pashchimanchal Campus, TU, Nepal (2014–2018) · 70.35%<br>
+          <em style="font-size:0.82rem;color:#888">Project: Carbon Stock Estimation of Above Ground Biomass using Geospatial Technology, Pokhara</em></li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>🔍 Research Interests</h3>
+        <ul>
+          <li>Remote Sensing & GIS — hydrology, agriculture, climate change, forestry, disaster response</li>
+          <li>Geospatial Big Data & Machine Learning</li>
+          <li>Radar & satellite remote sensing (InSAR) — Meteorology & Hydrology applications</li>
+          <li>Geospatial Digital Twins utilizing UAV Photogrammetry</li>
+          <li>GNSS technology for precision farming & geospatial applications</li>
+          <li>Long-term climate data analysis, extreme events & natural hazards</li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>🏛 Professional Associations</h3>
+        <ul>
+          <li>Registered Engineer — Nepal Engineering Council <em>(297 'Geomatics' 'A' Category)</em></li>
+          <li>Nepal Geomatics Engineer Association — Active Member</li>
+          <li>Nepal Engineering Council — Member <em>(Apr 2023 – Present)</em></li>
+          <li>Nepal Engineers' Association — Member <em>(Apr 2023 – Present)</em></li>
+          <li>Geomatics Engineering Society — Joint Secretary <em>(2015–2016)</em></li>
+        </ul>
+      </div>
+
+      <div class="info-card">
+        <h3>🏆 Awards & Recognition</h3>
+        <ul>
+          <li><strong>Full Scholarship for Graduate Studies</strong> — China Scholarship Council <em>(for M.Sc. at Wuhan University)</em></li>
+          <li><strong>Cultural Show Winner</strong> — 2020 International Geoinformatics Summer School, Wuhan, China</li>
+          <li><strong>Selected for Small Grant Program</strong> — HARIYO BAN Nepal, WWF <em>(2015)</em></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="bg-warm">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--navy);margin-bottom:1.5rem;padding-bottom:0.5rem;border-bottom:2px solid var(--rule);">Teaching Experience</h3>
+
+    <div class="timeline" style="margin-bottom:2.5rem;">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-role">Assistant Professor & Deputy Head of Department</div>
+          <div class="tl-org">IOE Pashchimanchal Campus, Pokhara, Nepal — Dept. of Geomatics</div>
+          <div class="tl-date">November 2022 – Present &nbsp;|&nbsp; Deputy HoD from June 30, 2024 (2-year tenure)</div>
+          <ul>
+            <li>Course & practical instructor: Adjustment of Observations, GIS, Photogrammetry, Remote Sensing, Geospatial Data Mining, Satellite Positioning, Machine Learning & Data Science</li>
+            <li>Supervised final year graduate and undergraduate research projects</li>
+            <li>Survey Camp coordinator</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-role">Lecturer</div>
+          <div class="tl-org">Kathmandu University, Dhulikhel — Dept. of Geomatics</div>
+          <div class="tl-date">September 2021 – November 2022</div>
+          <ul>
+            <li>Instructor for Surveying, GIS, Remote Sensing, Photogrammetry, Geospatial Data Mining</li>
+            <li>Supervised final year undergraduate and graduate student research projects</li>
+            <li>3rd & 4th year undergraduate one-month Survey Camp coordinator and instructor</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-role">Assistant Lecturer</div>
+          <div class="tl-org">Khwopa Engineering College, Bhaktapur — Dept. of Civil Engineering</div>
+          <div class="tl-date">June 2021 – August 2021</div>
+          <ul>
+            <li>Course & practical instructor for Engineering Surveying</li>
+            <li>Assisted students for research and final year projects; Survey Practical Supervisor</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--navy);margin-bottom:1.5rem;padding-bottom:0.5rem;border-bottom:2px solid var(--rule);">Engineering Work Experience</h3>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted);"></div>
+        <div class="tl-card" style="border-left-color:var(--muted);">
+          <div class="tl-role">Drone Pilot (UAV Pilot) / Senior Surveyor</div>
+          <div class="tl-org">Global Era Consult Pvt. Ltd., Pokhara</div>
+          <div class="tl-date">1-Month Project — Gandaki Province Funded</div>
+          <ul>
+            <li>3D model construction of agricultural land for organic farms, Armala, Kaski</li>
+            <li>Collected aerial imagery using UAV; processed data to create DEM and contour maps</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted);"></div>
+        <div class="tl-card" style="border-left-color:var(--muted);">
+          <div class="tl-role">Survey Engineer</div>
+          <div class="tl-org">SEW-TUNDI JOINT VENTURE — Lower Sanjen Hydropower</div>
+          <div class="tl-date">April 2019 – September 2019</div>
+          <ul>
+            <li>Collected leveling data using Total Station and leveling machine</li>
+            <li>Supervised all leveling data for construction of the hydropower tunnel</li>
+          </ul>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--muted);box-shadow:0 0 0 2px var(--muted);"></div>
+        <div class="tl-card" style="border-left-color:var(--muted);">
+          <div class="tl-role">Survey Engineer</div>
+          <div class="tl-org">Global Era Consult Pvt. Ltd. & Katero Consult Pvt. Ltd.</div>
+          <div class="tl-date">January 2019 – March 2019</div>
+          <ul>
+            <li>Detailed survey for Mahashila Road project (50 km, Total Station) — Mahashila Rural Municipality, Parbat</li>
+            <li>Land survey for Martyr Park development (~30,524 sq. m.), Methlang, Pokhara Metropolitan City</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications" class="bg-cream">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Publications</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="pub-list">
+      <div class="pub-item">
+        <span class="pub-num">01</span>
+        <div>
+          <div class="pub-title">Analysis of Land Deformation using Small Baseline Subset (SBAS) InSAR Techniques in Pokhara, Nepal</div>
+          <div class="pub-meta">
+            <span class="pub-badge">Journal Article</span>
+            <span class="pub-badge gold">InSAR · Land Deformation</span>
+          </div>
+        </div>
+      </div>
+      <div class="pub-item">
+        <span class="pub-num">02</span>
+        <div>
+          <div class="pub-title">Discontinuity Orientation Mapping in Rock Slope using Digital Tools</div>
+          <div class="pub-meta">
+            <span class="pub-badge">Journal Article</span>
+            <span class="pub-badge gold">Rock Slope · Geomatics</span>
+          </div>
+        </div>
+      </div>
+      <div class="pub-item">
+        <span class="pub-num">03</span>
+        <div>
+          <div class="pub-title">Estimation and Prediction of PM2.5 and PM10 Concentration in Kathmandu Valley using Remote Sensing and Machine Learning</div>
+          <div class="pub-meta">
+            <span class="pub-badge">Journal Article</span>
+            <span class="pub-badge gold">Air Quality · Machine Learning</span>
+          </div>
+        </div>
+      </div>
+      <div class="pub-item">
+        <span class="pub-num">04</span>
+        <div>
+          <div class="pub-title">Predicting Permafrost Distribution using Analytical, Statistical, and Machine Learning Models</div>
+          <div class="pub-meta">
+            <span class="pub-badge">Journal Article</span>
+            <span class="pub-badge gold">Permafrost · ML Modelling</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:1.5rem;font-size:0.85rem;color:var(--muted);font-style:italic;">
+      For full citation details, visit 
+      <a href="https://scholar.google.com/citations?hl=en&user=dvrN0DoAAAAJ" target="_blank" style="color:var(--gold);">Google Scholar Profile →</a>
+    </p>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="bg-warm">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Research & Projects</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem;">Research Grants</h3>
+    <div class="cards-grid" style="margin-bottom:2.5rem;">
+      <div class="r-card">
+        <div class="r-icon">🌊</div>
+        <h3>Flood Assessment & Vulnerability Analysis in Narainapur Rural Municipality</h3>
+        <p>AHP and Random Forest Models for flood risk mapping. Funded by Research Management Committee, Pashchimanchal Campus.</p>
+        <div class="r-tags">
+          <span class="r-tag funded">RMC Funded</span>
+          <span class="r-tag">Aug 2024 – Mar 2025</span>
+          <span class="r-tag">$70.85</span>
+        </div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">💧</div>
+        <h3>Delineation of Groundwater Potential Zones in Chitwan District</h3>
+        <p>Multi-Criteria, Bivariate Statistical, and Machine Learning analysis for integrated groundwater mapping.</p>
+        <div class="r-tags">
+          <span class="r-tag funded">RMC Funded</span>
+          <span class="r-tag">Aug 2024 – Mar 2025</span>
+          <span class="r-tag">$70.85</span>
+        </div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">🏙</div>
+        <h3>Land Use Plan & Land Classification for Bagchaur Municipality</h3>
+        <p>Comprehensive land use planning and classification project for Bagchaur Municipality, commissioned by local government.</p>
+        <div class="r-tags">
+          <span class="r-tag funded">Commissioned</span>
+          <span class="r-tag">Apr – Jun 2024</span>
+          <span class="r-tag">$9,209</span>
+        </div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">🌱</div>
+        <h3>Land Classification & Land Use Plan for Kapurkot Rural Municipality, Salyan</h3>
+        <p>Land classification and spatial land use planning for Kapurkot Rural Municipality, supporting local development planning.</p>
+        <div class="r-tags">
+          <span class="r-tag funded">Commissioned</span>
+          <span class="r-tag">Sep – Oct 2024</span>
+          <span class="r-tag">$5,667</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem;">Major Project Work</h3>
+    <div class="cards-grid">
+      <div class="r-card">
+        <div class="r-icon">🌳</div>
+        <h3>Forest Cover Change Analysis — Chitwan District</h3>
+        <p>Analysis of forest cover change using Landsat satellite imagery. Selected for the small grant program of HARIYO BAN Nepal, WWF (2015).</p>
+        <div class="r-tags"><span class="r-tag">WWF / HARIYO BAN</span><span class="r-tag">2015</span></div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">🗺</div>
+        <h3>Cadastral Map of Acham District</h3>
+        <p>Preparation of cadastral map of Acham district, Nepal, using aerial photographs with accuracy assessment.</p>
+        <div class="r-tags"><span class="r-tag">Cadastral Mapping</span><span class="r-tag">Photogrammetry</span></div>
+      </div>
+      <div class="r-card">
+        <div class="r-icon">🥾</div>
+        <h3>Trail & Community Infrastructure Mapping — Dolpa & Kalikot, Karnali Province</h3>
+        <p>World Food Programme (WFP) project organized by Youth Innovation Lab mapping trail and community infrastructure in remote Karnali districts.</p>
+        <div class="r-tags"><span class="r-tag">WFP</span><span class="r-tag">Dec 2020 – Apr 2021</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses" class="bg-cream">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2 class="section-title">Teaching</h2>
+      <div class="section-line"></div>
+    </div>
+    <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1.8rem;">Courses currently taught at IOE Pashchimanchal Campus & previously at Kathmandu University.</p>
+    <div class="courses-grid">
+      <div class="c-card">
+        <span class="c-code">GE<br>401</span>
+        <div class="c-info">
+          <h4>Geographic Information System (GIS)</h4>
+          <span class="c-level">BE / MSc</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">GE<br>402</span>
+        <div class="c-info">
+          <h4>Principle of Photogrammetry</h4>
+          <span class="c-level">BE / MSc</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">GE<br>403</span>
+        <div class="c-info">
+          <h4>Remote Sensing</h4>
+          <span class="c-level">BE / MSc</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">GE<br>404</span>
+        <div class="c-info">
+          <h4>Theory of Error and Adjustment</h4>
+          <span class="c-level">BE Level</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">GE<br>405</span>
+        <div class="c-info">
+          <h4>Satellite Positioning</h4>
+          <span class="c-level">BE / MSc</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">GE<br>406</span>
+        <div class="c-info">
+          <h4>Geospatial Data Mining</h4>
+          <span class="c-level">MSc Level</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">CS<br>501</span>
+        <div class="c-info">
+          <h4>Machine Learning & Data Science Applications</h4>
+          <span class="c-level">MSc Level</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">CS<br>501</span>
+        <div class="c-info">
+          <h4>Advance Remote Sensing</h4>
+          <span class="c-level">MSc Level</span>
+        </div>
+      </div>
+      <div class="c-card">
+        <span class="c-code">GE<br>301</span>
+        <div class="c-info">
+          <h4>Engineering Surveying</h4>
+          <span class="c-level">BE Level</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="bg-warm">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>🗺 GIS Software</h4>
+        <span class="skill-pill">ArcGIS</span>
+        <span class="skill-pill">QGIS</span>
+      </div>
+      <div class="skill-group">
+        <h4>🛰 Remote Sensing</h4>
+        <span class="skill-pill">ERDAS IMAGINE</span>
+        <span class="skill-pill">ENVI</span>
+        <span class="skill-pill">SNAP</span>
+        <span class="skill-pill">SARPROZ</span>
+      </div>
+      <div class="skill-group">
+        <h4>📷 Photogrammetry</h4>
+        <span class="skill-pill">Pix4D</span>
+        <span class="skill-pill">Agisoft Metashape</span>
+        <span class="skill-pill">Photomod</span>
+      </div>
+      <div class="skill-group">
+        <h4>💻 Programming</h4>
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">R</span>
+        <span class="skill-pill">C</span>
+      </div>
+      <div class="skill-group">
+        <h4>📡 Field Instruments</h4>
+        <span class="skill-pill">RTK GPS</span>
+        <span class="skill-pill">Static GPS</span>
+        <span class="skill-pill">Total Station</span>
+        <span class="skill-pill">UAV / Drone</span>
+      </div>
+      <div class="skill-group">
+        <h4>🌐 Languages</h4>
+        <span class="skill-pill">Nepali (Native)</span>
+        <span class="skill-pill">English (Good)</span>
+        <span class="skill-pill">Hindi (Good)</span>
+      </div>
+    </div>
+
+    <!-- Workshops -->
+    <div style="margin-top:2.5rem;">
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--navy);margin-bottom:1.2rem;">Seminars & Workshops</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;">
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">🌍 International Training Workshop on Earth Observation for Sustainable Development in Developing Countries <em>(2020)</em></p>
+        </div>
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">🛰 2020 International Geoinformatics Summer Course — Wuhan University</p>
+        </div>
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">📡 GNSS Summer School — Institute of Positioning, Navigation and Timing of Japan (IPNTJ), 2022</p>
+        </div>
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">🗾 International GNSS Summer School 2023 Tokyo, Japan <em>(28 Aug – 2 Sep 2023)</em></p>
+        </div>
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">🗺 Advanced QGIS Training — SAIARD <em>(25 Apr – 17 May 2020)</em></p>
+        </div>
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">🚁 GPS/UAV Training — Land Management Training Center (LMTC), Dhulikhel <em>(Jun–Jul 2022)</em></p>
+        </div>
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">✈️ Basic Unmanned Aircraft Operations Course (Theory + Practical) <em>(13–17 Jul 2025)</em></p>
+        </div>
+        <div class="info-card" style="padding:1rem 1.2rem;">
+          <p style="font-size:0.86rem;color:var(--muted);">🌐 GIS Software Technology Conference — SuperMap Software <em>(2020)</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-navy">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-num-light">07</span>
+      <h2 class="section-title section-title-light">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="c-item">
+          <span class="c-ico">✉️</span>
+          <div class="c-detail">
+            <h4>Institutional Email</h4>
+            <a href="mailto:netra@ioepas.edu.np">netra@ioepas.edu.np</a>
+          </div>
+        </div>
+        <div class="c-item">
+          <span class="c-ico">✉️</span>
+          <div class="c-detail">
+            <h4>Personal Email</h4>
+            <a href="mailto:neetra45.katuwal69@gmail.com">neetra45.katuwal69@gmail.com</a>
+          </div>
+        </div>
+        <div class="c-item">
+          <span class="c-ico">📞</span>
+          <div class="c-detail">
+            <h4>Phone</h4>
+            <a href="tel:+9779866292619">+977-9866292619</a>
+          </div>
+        </div>
+        <div class="c-item">
+          <span class="c-ico">🏛</span>
+          <div class="c-detail">
+            <h4>Office</h4>
+            <p>Department of Geomatics Engineering<br>IOE Pashchimanchal Campus, Tribhuvan University<br>Pokhara, Gandaki Province, Nepal</p>
+          </div>
+        </div>
+      </div>
+      <div class="profile-links">
+        <h3>Academic Profiles</h3>
+        <a href="https://scholar.google.com/citations?hl=en&user=dvrN0DoAAAAJ" class="p-link" target="_blank">
+          <span>🎓</span> Google Scholar — Netra Bahadur Katuwal
+        </a>
+        <a href="https://www.linkedin.com/in/netra-bahadur-katuwal-49664b198" class="p-link" target="_blank">
+          <span>💼</span> LinkedIn Profile
+        </a>
+        <a href="http://ioepas.edu.np" class="p-link" target="_blank">
+          <span>🏛</span> IOE Pashchimanchal Campus
+        </a>
+        <a href="https://www.nepeng.org.np/" class="p-link" target="_blank">
+          <span>🔧</span> Nepal Engineering Council — Reg. No. 297 (Geomatics A)
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 <span>Netra Bahadur Katuwal</span> · Assistant Professor, Dept. of Geomatics Engineering · IOE Pashchimanchal Campus, Tribhuvan University · Pokhara, Nepal</p>
+</footer>
+
+<script>
+// Scroll-triggered fade-in
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.pub-item,.r-card,.c-card,.tl-card,.info-card,.skill-group,.w-item').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(18px)';
+  el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+  io.observe(el);
+});
+</script>
+
+</body>
+</html>
